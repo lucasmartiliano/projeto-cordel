@@ -16,28 +16,27 @@ header{
 header > h1{
     color: white;
     text-align: center;
-    font-size: 50px;
-    font-size: min 30px;
+    font-size: 10vw;
     font-family: 'Passion One', cursive;
 }
 header > p{
     color: white;
     text-align: center;
     padding: 20px;
+    font-size: 23px;
 }
 a{
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
 }
 a:hover{
     text-decoration: underline;
 }
 main p{
     font-family: 'Sriracha', cursive;
-    font-size:30px;
+    font-size:4vw;
     text-align: left;
-    width: 400px;
 }
 .joaninha {
     background-image:url(imagens/background001.jpg);
@@ -55,8 +54,8 @@ main p{
 }
 article{
     background-color: rgba(0, 0, 0, 0.512);
-    width: 40%;
-    padding: 50px 0px 50px 50px;
+    display: inline-block;
+    padding: 15px;
     color: white;
 }
 article > p{
